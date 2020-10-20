@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <math.h>
+/*PRECISION define cómo de grande es el array y por lo tanto la cantidad de puntos a represenar*/
+#define PRECISION 1000
+
+int main(){
+	FILE *fp = NULL;
+	fp = fopen("plot_2D.dat","w");
+	float lim_inf, lim_sup, ancho;
+	int i;
+	printf("Introduce el límite inferior y el superior, como decimales, separados por un espacio: \n");
+	scanf("%f %f", &lim_inf, &lim_sup);
+	ancho = (lim_sup - lim_inf)/(float)PRECISION;
+	/*ahora creamos el array*/
+	float x[PRECISION],y[PRECISION];
+	for (i = 0; i <= PRECISION; i++){
+		x[i]=lim_inf+(float)i*ancho;
+	}
+	/* ahora introduzco la función que quiero representar en el ejemplo y=x^2*/
+	for (i = 0; i<= PRECISION; i++){
+		/*este es el punto en el que debes integrar la función por ejemplo sinf(x[i])*exp(-x[i])*x[i];*/
+		y[i]=2*x[i]-5;
+		fprintf(fp,"%f %f\n",x[i],y[i]);
+		/*este es el punto en el que debes integrar la función*/
+
+	}
+	fclose(fp);
+    return 0;	
+}

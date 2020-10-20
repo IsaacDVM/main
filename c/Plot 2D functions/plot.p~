@@ -1,0 +1,13 @@
+#set terminal postfile       (These commented lines would be used to )
+#set output  "d1_plot.ps"    (generate a postscript file.            )
+set   autoscale                        # scale axes automatically
+set title "Funciones"
+set xlabel "x(m)"
+set ylabel "y(m)"
+set xrange [-10:10]
+set yrange [-50:50]
+set xzeroaxis
+set yzeroaxis
+set grid
+plot "plot_2D.dat" u 1:2 with lines
+pause -1 "Hit any key to continue"

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            margin: 50px auto;
+            padding: 15px;
+            font-family: Verana, Geneva, Tahoma, sans-serif;
+            align-items: center;
+            border-radius: 5px;
+            background-color: wheat;
+        }
+        .izq, .cen, .der {
+            display: inline-block;
+            position: relative;
+        }
+        .izq {
+            
+            width: 33%;
+            align-content: center;
+            background: #FF007433;
+        }
+        .cen {
+            
+            width: 33%;
+            align-content: center;
+            background: #FF0074A6;
+        }
+        .der {
+            
+            width: 33%;
+            align-content: center;
+            background: #FF0074FF;
+        }
+        p {
+            text-align: center;
+            margin: auto;
+        }
+        img{
+            display: block;
+            margin: auto;
+            align-self: center;
+            
+        }
+        section a {
+            display: inline;
+        }
+        .centrada {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <article class="izq">
+                <p>Esta es una prueba de gradiente 25%</p>
+                <p>            background: #FF007433
+                </p>
+            </article>
+            <article class="cen">
+                <p>Esta es una prueba de gradiente 60%</p>
+                <p>            background: #FF0074A6
+                </p>
+            </article>
+            <article class="der">
+                <p>Esta es una prueba de gradiente 100%</p>
+                <p>            background: #FF0074FF
+                </p>
+            </article>
+        </section>
+        <section class="centrada">
+            <p> Este es el color original</p>
+            <a href="https://www.color-hex.com/color/ff0074"><img src="/02_electronica/img/pink1.png" alt="Imagen del rosa que he elegido para degradar"></a>
+        </section>
+    </main>
+
+    
+</body>
+</html>
