@@ -1,0 +1,65 @@
+* {
+  /*acuérdate de elegir el correcto box-sizing y e resetear el padding y el margin*/
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6em;
+    font-size: 18px;
+  /* la familia es Roboto, sans-serif y el tamaño de letra está aumentad a 18px y el interlineado fijado a 1.6*/
+  }
+  
+  .cabecita{
+  /* En esta sección pon un margen superior y un pequeño padding, conviene que pongas el display en flex y justifiques space-between y alinees centrado, el color de fondo es #ccc*/
+    margin-top: 20px;
+    background-color: #ccc;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+  
+    }
+  .izq, .cen,.der{
+  /* importante que el display se ponga en inline-block para que los elementos se alineen y que haya un radio en el borde*/
+    display: inline-block;
+    Margin: 4px 20px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .izq {
+    /* el color del fondo debe ser #FF007433 */
+    background-color: #FF007433;
+  }
+  .cen {
+    /* el color del fondo debe ser #FF0074A6 */
+    background-color: #FF0074A6;
+  }
+  .der {
+      /* el color del fondo debe ser #FF0074FF */
+      background-color: #FF0074FF;
+  }
+  p {
+  /* centra el texto*/
+    text-align: center;
+  }
+  img{
+  /* recuerda que debe ser un bloque y que debe ocupar todo el contenedor*/
+    width: 100%;
+  }
+  section a {
+  /*el display debería ser inline*/
+    display: inline-block;
+  }
+  .centrada {
+  /* un max-width es necesario para que se adapte al dispositivo, el borde es tipo dash, tiene radio y su color es #aaa*/
+   border: dashed grey 2px;
+   border-radius: 3px;
+   max-width: 40%;
+   text-align: center;
+   margin-top:40px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  

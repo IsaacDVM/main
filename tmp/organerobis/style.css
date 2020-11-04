@@ -1,0 +1,90 @@
+html
+{
+ background-color:#7E0B8F;
+ font-family: 'Roboto Mono', monospace;
+  }
+
+body{
+  background-color: grey;
+  margin: 200px;
+  border:#4E195D 15px outset;
+}
+section
+{
+ background-image: url("https://steamuserimages-a.akamaihd.net/ugc/781783911322144169/34C58114010CEE4D8BA6E5735AE87430B67F34A4/");
+  background-repeat:repeat-y;
+  background-position:center;
+  margin: 100px;
+  background-color: #FFFFFF;
+  border: lightgreen 8px inset;
+  width: 600px; height: 269px;
+}
+img
+{
+  border: lightgreen 8px inset;
+}
+iframe
+{
+  border: lightgreen 8px groove;
+  width: 200px; height: 100px;
+}
+gif
+{
+  border:red 8px inset;
+}
+footer
+{
+margin:9%;
+}
+/*Aqui voy a poner los id*/
+#section2
+{
+  background-image:none;
+  background-color: #F4F4B7;
+  border: orange 10px groove;
+}
+#gif
+{
+  border:none;
+  width: 100%;
+    margin: 9%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+}
+#section3
+{
+  border:none;
+  background-image:none;
+  background-color:transparent;
+}
+/*cosas raras*/
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.imgr{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+/*fin de cosas raras*/
+}
+#imgr
+{
+  border:none;
+  background-image:none;
+  background-image:transparent;
+}
+#imgr2
+{
+  border:none;
+  background-image:none;
+  background-image:transparent;
+  -webkit-animation-direction: reverse;
+     animation-direction: reverse;
+
+  
+}
+

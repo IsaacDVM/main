@@ -1,0 +1,46 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+.cabecita{
+  margin-top:10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #ccc;
+}
+.izq, .cen, .der{
+  display: inline-block;
+  border-radius: 4px;
+}
+.izq{
+  background-color:#FF007433;
+}
+.cen{
+  background-color:#FF0074A6;
+}
+.der{
+  background-color:#FF0074FF;
+}
+p{
+  text-align: center;
+}
+img{
+  display: block;
+  vertical-align: middle;
+}
+section a{
+  display: inline;
+}
+.centrada{
+  width:500px;
+  height: 300px;
+  margin:0px auto;
+  line-height: 20px;
+  text-align: center;
+  border: dashed #aaa;
+  border-radius: 7px;
+  padding: 10px;
+}

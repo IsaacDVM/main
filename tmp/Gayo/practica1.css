@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto" 18px;
+  line-height: 1.6;
+  border: dashed gray 1px;
+  border-radius: 4px;
+}
+.cabecita{
+  margin: 20px;
+  padding: 5px 10px;
+  display: flex;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.izq, .cen, .der {
+/* inmportante que el display se ponga en inline-block para que los elementos se alineen y que haya un radio en el borde*/
+  display: inline-block;
+  border-radius: 10px;
+
+}
+
+.izq {
+	background-color: #FF007433;
+}
+
+.cen {
+	background-color: #FF0074A6;
+}
+
+.der {
+		background-color: #FF0074FF;
+}
+
+p {
+  text-align: center;
+}
+
+img{
+/* recuerda que debe ser un bloque y que debe ocupar todo el contenedor*/
+}
+section a {
+  display: inline;
+}
+.centrada {
+/* un max-width es necesario para que se adapte al dispositivo, el borde es tipo dash*/
+  max-width
+  border: dash;
+  border-radius: 7px #aaa;
+}

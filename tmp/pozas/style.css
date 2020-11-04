@@ -1,0 +1,48 @@
+header{
+    height:60%;
+    border-radius:30px;
+    font-family: 'arial';
+    color:#1CC2CF;
+  }
+  body{
+    background-image:url(fondotecno.jpg);
+    background-size:118%;
+    width: 60%;
+    margin:auto;
+    text-align:center;
+    
+    font-family: 'luminari';
+  }
+  
+  ul{
+    list-style:none;
+    color:#1CC2CF
+  }
+  li{
+    color:#1CC2CF;
+  }
+  a:link, a:visited, a:active {
+      text-decoration:none;
+  }
+  
+  img{
+    border:1px solid white;
+    border-radius:5px;
+    float:left;
+  }
+  iframe{
+    border:1px solid white;
+    border-radius:5px;
+    float:left;
+  }
+  section{
+    color:lightblue;
+  }
+  
+  footer{
+    color:lightblue;
+    border:2px solid black;
+    border-radius:5px;
+    background:black;
+  }
+  

@@ -1,0 +1,35 @@
+html {
+  background-color: white;
+}
+
+
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  width:60%;
+  background-color: #c6e9f1;
+  border: 2px solid black;
+
+}
+
+header{
+  margin: 50px;
+  padding: 10px;
+}
+
+h1{
+  font-family: 'Commissioner', sans-serif;
+}
+
+
+
+p {
+  color: #E01FC3;
+}
+p, .loren{
+  color: #3F52AC;
+}
+p, #asignatura{
+  color: green;
+}

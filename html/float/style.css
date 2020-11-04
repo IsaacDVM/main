@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html {
+    font-family: Oswald;
+    background-color: rgb(248, 188, 181);
+}
+body {
+    border-radius: 4px;
+
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900px;
+}
+
+main {
+    width: 60%;
+    float: left;
+    
+}
+
+main section {
+    background-color: rgb(251, 237, 235);
+    border: dashed grey 1px;
+    border-radius: 0.5em;
+    line-height: 3;
+    margin: 20px 30px;
+    padding: 0px 10px 10px 10px;
+    
+}
+
+main section p {
+    text-align: justify;
+}
+
+h1, p, .foot {
+    margin: 5px 0px;
+}
+.foot{
+    font-size: 12px;
+    line-height: normal;
+}
+
+aside {
+    top: 5px;
+    position: sticky;
+    float: right;
+    width: 30%;
+}
+.clr {
+    clear: both;
+}

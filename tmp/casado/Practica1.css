@@ -1,0 +1,48 @@
+
+body {
+      background-image:url("https://i.pinimg.com/originals/ec/23/99/ec23995bff61bdd3c8514c5c3a80ade9.gif");
+      background-attachment: fixed;
+      min-height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+body p,h1 {
+      font-family: Helvetica, sans-serif;
+      color: #7DCA79;
+      font-size: 25px;
+      line-height: 1.4em;
+      
+      margin:15px 150px;
+      border:skyblue solid 1px;
+      padding: 4px;
+    }
+    
+Aside {
+      
+      width:70%;
+      margin:30px;
+    }
+Aside2{
+      width:40%;
+      position:absolute;
+      right: 20px;
+      top: 700px;
+      transform: scale(0.7);
+      }
+a {
+      color: #7DCA79;
+      text-decoration:none;
+    }
+a:hover {
+        background-color:#515E6D;
+        color:#E800FF;
+    }
+.zoom {
+    transition: transform 1.5s;
+      }
+ 
+.zoom:hover {
+    transform: scale(1.1);
+      }
+

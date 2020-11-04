@@ -1,0 +1,28 @@
+html { background-image: url("basketwallpaper.jpg");
+}
+
+body {
+      text-align:center;
+      background-color: #234A55BF;
+      color: #D4EDF4;
+      font-family: 'Sora', sans-serif;
+}
+
+
+a {
+     
+     color:#234A55;
+     text-decoration:none;
+  
+}
+
+section {
+      color: #234A55 ;
+      background-color: #D4EDF4;
+      border: 2px solid STEELBLUE;
+      border-radius: 0px;
+      box-sizing: border-box;
+      margin: auto;
+      width: 18%;
+      text-align: left ;
+    }

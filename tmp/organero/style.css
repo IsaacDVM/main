@@ -1,0 +1,75 @@
+html{
+    background-color: #b9a3a3;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+header
+{
+  text-align: center;
+}
+header h1 {
+    font-size: 45px;
+    text-shadow: 3px 3px 5px grey;
+    
+}
+header p{
+    font-size: 20px;
+    margin: 20px;
+    padding: 15px;
+    text-decoration: blink;
+}
+p #minombre{
+  font-size: 20px;
+}
+body{
+  background-color: #FFF4B2;
+  width: 50%;
+  margin: 0 auto;
+  border: 7px purple double;
+}
+section
+{
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/781783911322144169/34C58114010CEE4D8BA6E5735AE87430B67F34A4/");
+  background-repeat:repeat-y;
+  background-position:center;
+  margin: 100px;
+  background-color: #FFFFFF;
+  border: lightgreen 8px inset;
+  width: 600px; height: 269px;
+}
+
+img
+{
+  border: lightgreen 8px inset;
+}
+iframe
+{
+  border: lightgreen 8px groove;
+  width: 200px; height: 100px;
+}
+gif
+{
+  border:red 8px inset;
+}
+/*Aqui voy a poner los id*/
+#section2
+{
+  background-image: none;
+  background-color: #FFFFCC;
+  border: orange 10px groove;
+} 
+#gif
+{
+    border:none;
+    width: 100%;
+    margin: 9%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+}
+footer{
+    margin: 20px 30px;
+    border: 1px grey dashed;
+} 

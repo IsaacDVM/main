@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Oswald;
+    background-color: white;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900px;
+    background-color:  #83C0FC;
+    border-radius: 0.2em;
+    margin: 0px 10px;
+    position: sticky;
+    top: 5px;
+}
+
+header h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:  white;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 8px   black;
+}
+
+header a{
+    text-decoration: none;
+    color:  white;
+
+}
+
+main {
+    width: 70%;
+    float: left;
+    
+}
+
+main section {
+    background-color: #fff;
+    border-radius: 0.5em;
+    line-height: 2;
+    margin: 20px 30px;
+    padding: 0px 10px 10px 10px;
+    
+}
+
+main section p {
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.subject {
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    font-style: italic;
+    margin: 25px 0px;
+
+}
+
+.title {
+    font-family: 'Heebo', sans-serif;
+
+}
+
+main section a{
+    text-decoration: none;
+    color: black;
+}
+
+.overview:hover{
+    background-color: #EFEFEF;
+}
+main section img {
+    margin: auto;
+    display: block;
+}
+
+h1, .foot {
+    margin: 5px 0px;
+}
+.foot{
+    font-size: 12px;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+aside {
+    top: 130px;
+    position: sticky;
+    float: right;
+    width: 20%;
+    z-index: -2;
+
+}
+
+
+aside h1 {
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+aside p, aside a {
+    font-size: 12px;
+}
+.clr {
+    clear: both;
+}
+
+footer {
+    font-size: 14px;
+    font-family: 'Crimson Text', serif;
+    margin: auto;
+    text-align: center;
+}

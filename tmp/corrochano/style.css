@@ -1,0 +1,44 @@
+*{
+  padding:6px;
+  margin:auto;
+}
+
+body{
+  
+  background-color:white;
+  border-radius:4px;
+}
+header{
+  text-align:center;
+  font-size:50px;
+  
+  
+}
+.cabecita{
+  margin:16px auto;
+  padding:10px;
+  display:flex;
+  justify-content:space-between;
+}
+section{
+  display:inline-block;
+  background-color: silver;
+  border-radius:4px;
+  margin:auto;
+}
+footer{
+  text-align:center;
+  font-size:12px;
+}
+.izq{
+  background-color:#FF007433 ;
+}
+.cen{
+  background-color:#FF0074A6;
+}
+.der{
+  background-color:#FF0074FF ;
+}
+section{
+  display:inline-block;
+}

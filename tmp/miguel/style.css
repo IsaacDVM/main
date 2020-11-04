@@ -1,0 +1,26 @@
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color:black;
+  margin:15%;
+  background-image:url(https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789__340.jpg);
+  text-shadow:0.1em 0.1em 0.2em white;
+}
+body{
+  background-color:#FFFAFABF
+}
+header{
+  background-color:##DCDCDC
+;
+background-color(border-radius):15px;
+}
+a:link, a:visited, a:active{
+  color:black;
+  text-decoration:none;
+}
+*{
+  list-style:none;
+}
+a:hover{
+  background-color:#A6A5A5;
+  border-radius:15px;
+}

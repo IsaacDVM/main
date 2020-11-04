@@ -1,0 +1,43 @@
+html {
+  background-color:#000000;
+}
+h1{
+font-family: 'Monoton', sans-serif;
+ color: yellow;
+  text-shadow: 3px 3px 3px #FD7002;
+  
+}
+p{
+  color:#fcfcfc;
+  font-family: 'Roboto Mono', monospace;
+}
+p1{
+  color:#fcfcfc;
+  font-family: 'Roboto Mono', monospace;
+}
+ul{
+  color:#fcfcfc;
+  list-style-type: none;
+  font-family: 'Roboto Mono', monospace;
+}
+header{
+  text-align:center;
+}
+body {
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+#culo{
+   border: 3px solid #0000FF;
+   width: 80%;
+   margin: 10px auto;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: 'Roboto Mono', monospace;
+  }
+aside{
+  margin: auto;
+  font-family: 'Roboto Mono', monospace;
+}

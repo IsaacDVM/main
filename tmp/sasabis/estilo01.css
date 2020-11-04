@@ -1,0 +1,117 @@
+html{
+  background-image: url("https://www.huescalamagia.es/blog/wp-content/uploads/2016/10/Ordesa-065-siuler-viajes-y-fotos.jpg");
+  
+}
+
+body{
+  text-align: center;
+  color: #BAA95A80;
+  
+}
+
+header{
+    background-color: #E6D092F2;
+    border: 3px solid black;
+    border-radius: 30px;
+    border-style:groove;
+    border-color:#CAA120;
+    width:100%;
+    margin:0px 0px 35px 00px;
+    color:#6F460C;
+  
+}
+
+h1{
+  font-family: 'Syne Mono', monospace;
+}
+
+h4{
+  font-family: 'Oswald', sans-serif;;
+  color:#6F460C;
+}
+
+aside #border {
+  border: black 3px solid;
+  overflow: auto;
+  float:left;
+  width: 33%;
+}
+
+ul{
+  list-style-type:none;
+  color:white;
+}
+
+
+main{
+  width:90%;
+  margin: 0 auto;
+  border: 1px; solid black;
+  padding: 20px 20px 20px 20px;
+  background-color:#73521999;
+  text-align: center;
+}
+
+
+.lorem:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.05);
+  background-color: #6F460CF2;
+  transition:all .5s ease-in-out;
+  border-color: #E6D092F2;
+  border-radius: 10px;
+  filter: sepia(60%);
+}
+.lorem {
+  overflow:hidden;
+  color: #6F460C;
+}
+
+p{
+  font-family: 'Old Standard TT', serif;
+  color: #E6D092F2;
+  line-height: 22px;
+  font-family: 'Syne Mono', monospace;
+  
+}
+
+.verticalLine {
+    border-left: thick solid ;
+    border-color:#6F460C;
+
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Syne Mono', monospace;
+}
+
+section #menu{
+  float:right;
+  width: 45%;
+}
+
+a:hover{
+  background-color: #DCCDB4;
+  border:ridge;
+  border-color:#A0145873;
+  padding:20px,40px,20px,40px;
+  border-radius:4px;
+  font-size:20px;
+  font-style: oblique;
+  color: #A0145873;
+  
+}
+
+hr{
+  color: #6F460C;
+}
+
+.imagen:hover {filter: opacity(.8);}
+
+footer{
+  color:white;
+  font-weight: 1000px;
+  font-family: 'Syne Mono', monospace;
+  background-color: #6F460CD9;
+}

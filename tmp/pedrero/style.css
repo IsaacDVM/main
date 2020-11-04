@@ -1,0 +1,57 @@
+html {
+    
+  background-image: url("back.jpg");
+  text-align: center;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+body {
+   background-image: url("https://files.rcnradio.com/public/styles/image_834x569/public/2018-11/rayo_9_0.jpg?itok=ed9LFxAy");
+  width: 70%;
+  color:  white;
+  background-color: #2C0339;
+  margin: auto;
+}
+h1 {
+  text-shadow: 1px 1px #13F1FF;
+}
+p {
+  text-shadow: 1px 1px #09FF53;
+  
+}
+small {
+   text-shadow: 1px 1px #1E13A7;
+}
+a {
+   text-shadow: 1px 1px #E12504;
+   text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+a:hover{
+color: #0E23A8;
+background-color: black;
+border: 5px solid black;
+border-radius: 4px;
+text-shadow: 2px 2px #E12504;
+}
+
+a {
+background-color: #2C0339;
+text-align: center; font-family: 'Montserrat Subrayada', sans-serif;
+}
+h1, p, small, a { color:  #F5D6FF;
+  
+}
+
+h1 { text-shadow: 2px 2px #D735FF;
+}
+p {
+  text-shadow: 1px 1px #09FF53;
+  
+}
+small
+{ text-shadow: 2px 2px #1E13A7;
+  
+}

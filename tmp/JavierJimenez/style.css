@@ -1,0 +1,27 @@
+h1 {
+    color:red;
+              }
+  ul {
+                padding: 15;
+                list-style: square;
+                color:#92F7F7;
+              }
+  
+        
+  header {
+                margin-bottom: 15px;
+                background: #EEFBFB;
+              }
+  #jibi {
+    color:#061010;
+  }
+  body{
+    width:60%;
+    margin:auto;
+    background-color:#0C0D0D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D5F6F6;
+    line-height: 1.4;
+    text-align: center;
+  }
+  

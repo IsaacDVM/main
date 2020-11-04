@@ -1,0 +1,36 @@
+h1 {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 20px;
+    color: #002DBA;
+
+}
+
+body{
+  font-family:'Quattrocento', serif;
+    background-color: #EAFBFF;
+
+}
+
+img{
+  border: 2px solid #001B64;
+  padding: 1px;
+  margin-bottom: 15px;
+}
+
+h2{
+
+  width: 600px;
+  height: 480px;
+  border: 2px solid #001B64;
+  padding: 1px;
+  margin: auto;
+}
+h2 iframe{
+	width: 100%;
+	height: 100%;
+}
+
+p{
+  border-left: #001B64 2px solid;
+}

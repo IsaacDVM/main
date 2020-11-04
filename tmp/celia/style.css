@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.6px;
+}
+
+.cabecita {
+  margin-top:5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #ccc;
+}
+	
+.izq, .cen, .der {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+.izq {
+  background-color:#FF007433
+}
+.cen {
+  background-color:#FF0074A6
+}
+.der {
+  background-color:#FF0074FF
+}
+
+.centrada {
+  text-align: center;
+  box-sizing:content-box;
+  margin: 20px auto;
+  border-style: dashed;
+  border-radius: 6px;
+  border-color: #aaa;
+  max-width: max-content;
+  padding: 10px;
+}
+
+section a {
+  display: inline;
+}

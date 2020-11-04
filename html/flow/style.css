@@ -1,0 +1,30 @@
+html {
+    font-family: Oswald;
+    background-color: rgb(248, 188, 181);
+}
+body {
+    border-radius: 4px;
+
+}
+header{
+    text-align: center;
+    font-size: 50px;
+}
+.box {
+    margin: 10px auto;
+    border: dashed gray 3px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+section {
+    border-radius: 4px;
+    background-color: silver;
+    padding: 20px;
+    margin: 0px 20px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
