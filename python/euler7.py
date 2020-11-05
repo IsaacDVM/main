@@ -1,5 +1,5 @@
 import math
-lim = 1000
+lim = 500000
 primo = [2,3,5]
 criba = []
 num = []
@@ -46,4 +46,4 @@ for i in primo:
     sum += i
 print(sum)
 print(len(primo))
-print(primo)
+print(primo[10000])
