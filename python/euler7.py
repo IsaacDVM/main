@@ -1,5 +1,5 @@
 import math
-lim = 500000
+lim = 5000000
 primo = [2,3,5]
 criba = []
 num = []
@@ -42,7 +42,7 @@ for i in num:
            criba[n*mult-1] = False
            mult += 1
 sum = 0
-for i in primo:
+for i in range(0,2000001):
     sum += i
 print(sum)
 print(len(primo))
