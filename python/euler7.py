@@ -43,7 +43,7 @@ for i in num:
            mult += 1
 sum = 0
 for i in range(0,2000001):
-    sum += i
+    sum += primo[i]
 print(sum)
 print(len(primo))
 print(primo[10000])
