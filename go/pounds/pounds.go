@@ -10,7 +10,6 @@ import (
 func main() {
 	var n int
 	count := 0
-	//empiezo en uno porque quito la combinación de 1 moneda de 2 pounds y subsiguientes
 	for v := 0; v <= 1; v++ {
 
 		for x := 0; x <= 2; x++ {
